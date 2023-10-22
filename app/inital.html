@@ -1,0 +1,60 @@
+import Image from 'next/image'
+
+import { Hero, Tab } from "@/components";
+
+export default function Home() {
+  return (
+    <main className="">
+      <div className='nav flex justify-center'>
+        {/* Logo */}
+        <div className="Rectangle3 w-[1246.14px] h-[104.96px] rounded-bl-3xl rounded-br-3xl border border-white">
+          <div>
+            <div className='flex gap-4 mx-8 justify-center px-10 py-8'>
+              <img className="w-12 h-[49px] relative" src="./marisum.svg" />
+              <div className="Marsium text-white text-2xl mt-2 font-bold font-['Roona Sans Bold PERSONAL'] leading-7">MARSIUM</div>
+              <div className="Line1 w-[100.96px] h-[0px] origin-top-left ml-4 px-10 -mt-7 rotate-90 border border-white"></div>
+              {/*  */}
+              <div className="Frame12 h-[49px] flex justify-start items-start gap-2.5">
+                <div className="Frame9 p-2.5 justify-center items-center gap-2.5 flex">
+                  <div className="About text-white text-2xl font-semibold font-['Gilmer Medium'] leading-7">About</div>
+                </div>
+                <div className="Frame10 p-2.5 justify-center items-center gap-2.5 flex">
+                  <div className="Features text-white text-2xl font-semibold font-['Gilmer Medium'] leading-7">Features</div>
+                </div>
+                <div className="Frame11 p-2.5 justify-center items-center gap-2.5 flex">
+                  <div className="Swap text-white text-2xl font-semibold font-['Gilmer Medium'] leading-7">Swap</div>
+                  <div className="Frame18 px-[5px] bg-orange-500 rounded-xl justify-center items-center gap-2.5 flex">
+                    <div className="Soon text-white text-[8px] font-semibold font-['Gilmer Medium']">soon</div>
+                  </div>
+                </div>
+                <div className="Frame12 p-2.5 justify-center items-center gap-2.5 flex">
+                  <div className="Stake text-white text-2xl font-semibold font-['Gilmer Medium'] leading-7">Stake</div>
+                  <div className="Frame18 px-[5px] bg-orange-500 rounded-xl justify-center items-center gap-2.5 flex">
+                    <div className="Soon text-white text-[8px] font-semibold font-['Gilmer Medium']">soon</div>
+                  </div>
+                </div>
+              </div>
+              {/*  */}
+              {/* button */}
+              <div className="Line2 w-[130.96px] h-[0px] origin-top-left ml-4 px-8 -mt-7 rotate-90 border border-white"></div>
+              <div className="Frame8 w-[302px] h-[49px] p-6 bg-gradient-to-b from-orange-500 to-amber-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
+                <button className="BuyNow text-white text-xl font-extrabold font-['Gilmer Heavy'] leading-7">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          {/* nav items */}
+        </div>
+      </div>
+      {/* Main content */}
+      <div className="Marsium text-white text-center mt-36 text-9xl font-bold font-['Roona Sans Bold PERSONAL']">MARSIUM</div>
+
+      <div className="flex  mt-32">
+      <Hero />
+      </div>
+      <div className="flex justify-center mt-10">
+      <Tab />
+      </div>
+    </main>
+  )
+}
