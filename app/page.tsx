@@ -36,7 +36,7 @@ export default function Home() {
     <img className="Image4 w-[248.54px] h-[81.18px] rounded-[10px]" src="/image 4.png" />
   </div>
 
-  <div className="Frame8 w-[122px] h-[49px] p-6 left-[1124.74px] top-[20.02px] absolute bg-gradient-to-b from-orange-500 to-amber-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
+  <div className="Frame8 w-[162px] h-[49px] p-6 left-[1124.74px] top-[20.02px] absolute bg-gradient-to-b from-orange-500 to-amber-500 rounded-3xl justify-center items-center gap-2.5 inline-flex">
     <div className="BuyNow text-white text-xl font-extrabold font-['Gilmer Heavy'] leading-7">Buy Now</div>
   </div>
   <div className="Frame12 left-[537.24px] top-[19.57px] absolute justify-start items-start gap-2.5 inline-flex">
@@ -160,8 +160,9 @@ export default function Home() {
       </div>
     </div>
   </div>
-  <div className="Frame w-[1231px] h-[50px] pr-[713px] pt-[17px] left-[104.02px] top-[5768.91px] absolute border-t border-zinc-800 justify-start items-start gap-[713px] inline-flex">
-    <div className="Frame15 justify-start items-start gap-2.5 flex">
+  {/* Footer */}
+  <div className="Frame w-[1231px] h-[50px] pr-[0px] pt-[17px] left-[104.02px] top-[5768.91px] absolute border-t border-zinc-800 justify-start items-start gap-[713px] inline-flex">
+    <div className="Frame15 justify-start items-start  w-full gap-2.5 flex">
       <div className="Link2023GammaXyzAllRightsReserved text-white text-opacity-60 text-sm font-normal font-['Gilmer Regular'] leading-[21px]">© 2023 Marsuim.com - All rights reserved.</div>
     </div>
     <div className="Frame14 justify-start items-start gap-2.5 flex">
